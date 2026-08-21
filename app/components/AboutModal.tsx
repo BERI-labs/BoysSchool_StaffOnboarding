@@ -130,7 +130,7 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
                 className="underline hover:opacity-80"
                 style={{ color: "var(--school-accent)" }}
               >
-                Ravjot Brah
+                Ravjoth Brar
               </a>{" "}
               and{" "}
               <a
@@ -142,7 +142,7 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
               >
                 Enora Hauduc
               </a>
-              . Ravjot is a current student at the Boys&apos; School and Enora
+              . Ravjoth is a current student at the Boys&apos; School and Enora
               is a former student at the Girls&apos; School — they teamed up to
               build Beri and help new teachers get up to speed faster during
               onboarding at Habs. This is one of two policy assistants: this
