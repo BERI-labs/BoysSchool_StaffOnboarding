@@ -58,7 +58,7 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
               className="text-sm leading-relaxed"
               style={{ color: "var(--school-text-soft)" }}
             >
-              This is Beri, an AI assistant built by Enora and Rav for{" "}
+              This is Beri, an AI assistant built by Ravjoth and Enora for{" "}
               <a
                 href="https://www.habsboys.org.uk"
                 target="_blank"
