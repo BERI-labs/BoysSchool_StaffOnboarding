@@ -66,7 +66,7 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
                 className="underline hover:opacity-80"
                 style={{ color: "var(--school-accent)" }}
               >
-                Ravjoth (Current Student)
+                Ravjoth (Current School Captain)
               </a>{" "}
               and{" "}
               <a
