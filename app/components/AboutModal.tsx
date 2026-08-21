@@ -58,7 +58,7 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
               className="text-sm leading-relaxed"
               style={{ color: "var(--school-text-soft)" }}
             >
-              This is Beri, an AI assistant created by students at BERI Labs for{" "}
+              This is Beri, an AI assistant built by Enora and Rav for{" "}
               <a
                 href="https://www.habsboys.org.uk"
                 target="_blank"
@@ -124,16 +124,6 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
             >
               Beri was built by{" "}
               <a
-                href="https://www.linkedin.com/in/ravjothbrar/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:opacity-80"
-                style={{ color: "var(--school-accent)" }}
-              >
-                Ravjoth Brar
-              </a>{" "}
-              and{" "}
-              <a
                 href="https://www.linkedin.com/in/enorahauduc/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -141,16 +131,24 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
                 style={{ color: "var(--school-accent)" }}
               >
                 Enora Hauduc
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://www.linkedin.com/in/ravjothbrar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:opacity-80"
+                style={{ color: "var(--school-accent)" }}
+              >
+                Ravjoth Brar
               </a>
-              . Ravjoth is a current student at the Boys&apos; School and Enora
-              is a former student at the Girls&apos; School — they teamed up to
-              build Beri and help new teachers get up to speed faster during
-              onboarding at Habs. This is one of two policy assistants: this
-              one for the Boys&apos; School, and a sister assistant for the
-              Girls&apos; School, together making up the Habs Elstree
-              assistants for staff onboarding. Information is sourced from
-              official {SCHOOL_NAME} documentation — always verify important
-              matters directly with the school.
+              , who teamed up to help new teachers get up to speed faster
+              during onboarding at Habs. This is one of two policy
+              assistants: this one for the Boys&apos; School, and a sister
+              assistant for the Girls&apos; School, together making up the
+              Habs Elstree assistants for staff onboarding. Information is
+              sourced from official {SCHOOL_NAME} documentation — always
+              verify important matters directly with the school.
             </dd>
           </div>
         </dl>
