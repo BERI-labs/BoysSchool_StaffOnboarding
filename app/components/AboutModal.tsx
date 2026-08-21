@@ -90,13 +90,16 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
               </a>
               . 
               <br />
+              <br />
               They teamed up to help new teachers get up to speed faster
               during onboarding at Habs.
+              <br />
               <br />
               This is one of two policy
               assistants: one for the boys&apos; school and a sister
               assistant for the girls&apos; school, together making up the
               Habs Elstree assistants for staff onboarding. 
+              <br />
               <br />
               It is designed to help new and existing staff understand school policies,
               procedures, pastoral systems, through a curated knowledge base.
