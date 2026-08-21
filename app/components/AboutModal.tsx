@@ -66,7 +66,7 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
                 className="underline hover:opacity-80"
                 style={{ color: "var(--school-accent)" }}
               >
-                Ravjoth
+                Ravjoth (Current Student)
               </a>{" "}
               and{" "}
               <a
@@ -88,7 +88,7 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
               >
                 {SCHOOL_NAME}
               </a>
-              . They teamed up to help new teachers get up to speed faster
+              (OH). They teamed up to help new teachers get up to speed faster
               during onboarding at Habs. This is one of two policy
               assistants: one for the boys&apos; school and the sister
               assistant for the girls&apos; school, together making up the
