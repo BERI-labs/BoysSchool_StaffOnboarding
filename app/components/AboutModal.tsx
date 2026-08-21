@@ -68,9 +68,14 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
               >
                 {SCHOOL_NAME}
               </a>
-              . It is designed to help new and existing staff understand
-              school policies, procedures, pastoral systems, and the curriculum using
-              a curated knowledge base.
+              . They teamed up to help new teachers get up to speed faster
+              during onboarding at Habs. This is one of two policy
+              assistants: one for the boys&apos; school and the sister
+              assistant for the girls&apos; school, together making up the
+              Habs Elstree assistants for staff onboarding. It is designed
+              to help new and existing staff understand school policies,
+              procedures, pastoral systems, and a quickly created knowledge
+              base.
             </dd>
           </div>
 
@@ -108,47 +113,11 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
               the relevant information, then gives you a clear answer with a
               link to where it came from — so you can always check the
               source yourself.
-            </dd>
-          </div>
-
-          <div>
-            <dt
-              className="font-semibold mb-1"
-              style={{ color: "var(--school-accent)", fontSize: "1.25rem" }}
-            >
-              Who made this?
-            </dt>
-            <dd
-              className="text-sm leading-relaxed"
-              style={{ color: "var(--school-text-soft)" }}
-            >
-              Beri was built by{" "}
-              <a
-                href="https://www.linkedin.com/in/enorahauduc/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:opacity-80"
-                style={{ color: "var(--school-accent)" }}
-              >
-                Enora Hauduc
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://www.linkedin.com/in/ravjothbrar/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:opacity-80"
-                style={{ color: "var(--school-accent)" }}
-              >
-                Ravjoth Brar
-              </a>
-              , who teamed up to help new teachers get up to speed faster
-              during onboarding at Habs. This is one of two policy
-              assistants: this one for the Boys&apos; School, and a sister
-              assistant for the Girls&apos; School, together making up the
-              Habs Elstree assistants for staff onboarding. Information is
-              sourced from official {SCHOOL_NAME} documentation — always
-              verify important matters directly with the school.
+              <br />
+              <br />
+              Information is sourced from official Habs Boys&apos; School
+              documentation. Always verify important matters directly with
+              the school.
             </dd>
           </div>
         </dl>
