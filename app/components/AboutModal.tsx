@@ -59,7 +59,16 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
               style={{ color: "var(--school-text-soft)" }}
             >
               This is Beri, an AI assistant created by students at BERI Labs for{" "}
-              {SCHOOL_NAME}. It is designed to help new and existing staff understand
+              <a
+                href="https://www.habsboys.org.uk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:opacity-80"
+                style={{ color: "var(--school-accent)" }}
+              >
+                {SCHOOL_NAME}
+              </a>
+              . It is designed to help new and existing staff understand
               school policies, procedures, pastoral systems, and the curriculum using
               a curated knowledge base.
             </dd>
@@ -94,10 +103,11 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
               className="text-sm leading-relaxed"
               style={{ color: "var(--school-text-soft)" }}
             >
-              The assistant uses hybrid search (BM25 keyword search plus
-              semantic vector search) to find relevant passages from the school
-              knowledge base, then generates a response via an AI model — with
-              cited sources so you can verify the information.
+              Just type your question like you would ask a colleague. Beri
+              looks through the school&apos;s policies and documents to find
+              the relevant information, then gives you a clear answer with a
+              link to where it came from — so you can always check the
+              source yourself.
             </dd>
           </div>
 
@@ -112,10 +122,35 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
               className="text-sm leading-relaxed"
               style={{ color: "var(--school-text-soft)" }}
             >
-              Beri is a student-led project created by the BERI Labs team, a
-              student AI education initiative. Information is sourced from official{" "}
-              {SCHOOL_NAME} documentation. Always verify important matters directly
-              with the school.
+              Beri was built by{" "}
+              <a
+                href="https://www.linkedin.com/in/ravjothbrar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:opacity-80"
+                style={{ color: "var(--school-accent)" }}
+              >
+                Ravjot Brah
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://www.linkedin.com/in/enorahauduc/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:opacity-80"
+                style={{ color: "var(--school-accent)" }}
+              >
+                Enora Hauduc
+              </a>
+              . Ravjot is a current student at the Boys&apos; School and Enora
+              is a former student at the Girls&apos; School — they teamed up to
+              build Beri and help new teachers get up to speed faster during
+              onboarding at Habs. This is one of two policy assistants: this
+              one for the Boys&apos; School, and a sister assistant for the
+              Girls&apos; School, together making up the Habs Elstree
+              assistants for staff onboarding. Information is sourced from
+              official {SCHOOL_NAME} documentation — always verify important
+              matters directly with the school.
             </dd>
           </div>
         </dl>
