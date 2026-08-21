@@ -58,7 +58,27 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
               className="text-sm leading-relaxed"
               style={{ color: "var(--school-text-soft)" }}
             >
-              This is Beri, an AI assistant built by Ravjoth and Enora for{" "}
+              This is Beri, an AI assistant built by{" "}
+              <a
+                href="https://www.linkedin.com/in/enorahauduc/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:opacity-80"
+                style={{ color: "var(--school-accent)" }}
+              >
+                Enora (OH)
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://www.linkedin.com/in/ravjothbrar/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:opacity-80"
+                style={{ color: "var(--school-accent)" }}
+              >
+                Ravjoth (Current Student)
+              </a>{" "}
+              for{" "}
               <a
                 href="https://www.habsboys.org.uk"
                 target="_blank"
@@ -68,14 +88,21 @@ export function AboutModal({ open, onClose }: AboutModalProps) {
               >
                 {SCHOOL_NAME}
               </a>
-              . They teamed up to help new teachers get up to speed faster
-              during onboarding at Habs. This is one of two policy
-              assistants: one for the boys&apos; school and the sister
+              .
+              <br />
+              <br />
+              They teamed up to help new teachers get up to speed faster
+              during onboarding at Habs.
+              <br />
+              <br />
+              This is one of two policy
+              assistants: one for the boys&apos; school and a sister
               assistant for the girls&apos; school, together making up the
-              Habs Elstree assistants for staff onboarding. It is designed
-              to help new and existing staff understand school policies,
-              procedures, pastoral systems, and a quickly created knowledge
-              base.
+              Habs Elstree assistants for staff onboarding.
+              <br />
+              <br />
+              It is designed to help new and existing staff understand school policies,
+              procedures, pastoral systems, through a curated knowledge base.
             </dd>
           </div>
 
